@@ -117,7 +117,9 @@ namespace azbus
                             }
                         }
                     }
-                    retVal = retVal + "\n \n *** PROPERTIES COUNT FOR THIS LEVEL: " + index.ToString() + " ***";
+
+                    retVal = retVal + "\n *** PROPERTIES COUNT FOR THIS OBJECT: " + index.ToString() + " *** \n \n";
+                    index = 0;                    
                 }
             }
             catch (Exception ex)
